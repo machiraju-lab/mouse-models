@@ -69,26 +69,6 @@ class MouseClassifier(pl.LightningModule):
 
 
 # Test with Linear Regression instead: 
-# !pip install pytorch-lightning-bolts
-# from pl_bolts.models.regression import LinearRegression
-# import pytorch_lightning as pl
-# from pl_bolts.datamodules import SklearnDataModule
-
-# X = np.load("neuron_data.npy", allow_pickle=True)
-# Y = np.load("mouse_decision.npy", allow_pickle=True)
-
-# X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
-# data_tensor_train = torch.Tensor(X_train)
-# label_tensor_train = torch.Tensor(y_train)
-# dataset_train = data.TensorDataset(data_tensor_train, label_tensor_train)
-
-# data_tensor_test = torch.Tensor(X_test)
-# label_tensor_test = torch.Tensor(y_test)
-# dataset_test = data.TensorDataset(data_tensor_test, label_tensor_test)
-
-# loader_train = DataLoader(dataset_train)
-
-# loader_test = DataLoader(dataset_test)
 
 # model = LinearRegression(input_dim=554)
 # trainer = pl.Trainer()
