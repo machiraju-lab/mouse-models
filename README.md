@@ -20,4 +20,6 @@ Once the code is fixed, these inputs will be updated to reflect information acro
 
 The code is currently congregated within *linear-classifier-pytorch-lightning.py*. 
 
+The code executes with _loss_ = NAN, and test_acc/train_acc = 0.
+
 ![Failure](/img0.png)
