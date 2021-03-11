@@ -19,3 +19,5 @@ This model takes the same inputs as the Linear-Classifier-Pytorch model.
 Once the code is fixed, these inputs will be updated to reflect information across the entire trial, rather than at at each timestep. 
 
 The code is currently congregated within *linear-classifier-pytorch-lightning.py*. 
+
+![Failure](/img0.png)
