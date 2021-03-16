@@ -13,13 +13,7 @@ To run the model:
 
 ## Linear-Classifier-PyTorch-Lightning
 
-**This code does not run correctly.**
-
-This model takes the same inputs as the Linear-Classifier-Pytorch model. 
-Once the code is fixed, these inputs will be updated to reflect information across the entire trial, rather than at at each timestep. 
+This model takes the same inputs as the Linear-Classifier-Pytorch model, but it is implemented through PyTorch Lightning. 
 
 The code is currently congregated within *linear-classifier-pytorch-lightning.py*. 
 
-The code executes with _loss_ = NAN, and test_acc/train_acc = 0.
-
-![Failure](/img0.png)
