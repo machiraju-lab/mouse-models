@@ -76,8 +76,8 @@ def main():
         data = gen_dataset_trial(t, ms, savefile=save_path, result_file=result_data_file, s_cue=MouseCue.ANS, e_cue=MouseCue.REWARD)
 
         # gcn = GCN(data, len(data))
-        gcn = GCN(
-        print(gcn)
+        # gcn = GCN(
+        #print(gcn)
 
 if __name__ == '__main__':
     main()
